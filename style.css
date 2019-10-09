@@ -28,7 +28,6 @@ a:active {
 	font-size: 1.5em;
 }
 
-
 @media screen and (max-width: 340px) {
 	body {
 		font-size: 10px;
@@ -40,3 +39,21 @@ a:active {
 		font-size: 5px;
 	}
 }
+
+@media screen and (max-device-width: 254px) {
+	body{
+		font-size: 7px;
+	}
+ 	h1 {
+ 		padding: -10px;
+ 		margin: -10px;
+ 		text-align: left;
+ 		color: black;
+ 	}
+}
+
+@media screen and (max-device-width: 165px) {
+	body{
+		margin-left: -350px;
+		font-size: 5px;
+	}
