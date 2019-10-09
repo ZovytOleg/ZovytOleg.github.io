@@ -1,11 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>s2dent</title>
-</head>
-<body>
-	<h1>Chingaev Oleg</h1>
-	<p>SOI-18-1</p>
-</body>
-</html>
+body, html {
+	width: 100%;
+	height: 100%;
+}
+#img {
+	margin: -10px
+}
+
+h1,h2 {
+	color:red;
+	font-family: Arial
+}
+
+h3 {
+	color: orange;
+}
+
+#lab {
+	text-align: center;
+	font-size: 1.3em;
+	color:blue;
+}
+
+a:link{
+	color:lime;
+}
+a:hover {
+	color:red;
+}
+
+a:active {
+	font-size: 1.8em;
+}
+
+@media screen and (max-width: 340px) {
+	body {
+		font-size: 5px;
+	}
+}
