@@ -13,12 +13,8 @@ h1,h2 {
 
 h3 {
 	color: orange;
-}
-
-#lab {
 	text-align: center;
 	font-size: 1.3em;
-	color:blue;
 }
 
 a:link{
