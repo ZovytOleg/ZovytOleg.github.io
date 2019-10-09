@@ -28,7 +28,14 @@ a:active {
 	font-size: 1.8em;
 }
 
+
 @media screen and (max-width: 340px) {
+	body {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 235px) {
 	body {
 		font-size: 5px;
 	}
