@@ -1,0 +1,166 @@
+.data > div {
+
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Arial;
+  font-weight: bold;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  margin: 5px;
+
+}
+
+.header {
+    grid-area: hd;
+	background: red;
+}
+
+.main {
+    grid-area: mn;
+	background: blue;
+}
+ 
+.navigation {
+    grid-area: nv;
+	background: cyan;
+}
+
+.information {
+    grid-area: inf;
+	background: cyan;
+}
+
+.contacte {
+    grid-area: ct;
+	background: cyan;
+}
+
+.logo {
+    grid-area: lg;
+  background: orange;
+}
+
+.other {
+    grid-area: oh; 
+  background: cyan;
+}
+.other1 {
+    grid-area: oh1; 
+  background: cyan;
+}
+.other2 {
+    grid-area: oh2; 
+  background: cyan;
+}
+
+.other3 {
+    grid-area: oh3; 
+  background: cyan;
+}
+
+.other4 {
+    grid-area: oh4; 
+  background: cyan;
+}
+
+.useful {
+    grid-area: usf; 
+  background: cyan;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(130px, auto); 
+    grid-template-areas: 
+    "lg"
+    "hd"
+    "mn"
+	  "nv"
+    "inf"
+    "ct"
+    "oh"
+    "oh1"
+    "oh2"
+    "oh3"
+    "oh4"
+    "usf";
+
+}
+@media screen and (min-width: 700px) {
+    .data {
+        grid-template-columns: repeat(9, 1fr);
+        word-wrap: break-word;
+        grid-template-areas: 
+          "hd hd hd hd   hd   hd   hd   hd hd "
+          "mn mn mn mn   mn   mn   mn   mn mn"
+          "nv nv nv lg   lg lg  oh oh oh "
+          "nv nv nv inf  inf inf   oh1 oh1 oh1"
+          "nv nv nv inf  inf inf   oh2 oh2 oh2"
+          "nv nv nv inf  inf inf   oh3 oh3 oh3"
+          "ct ct ct usf  usf usf   oh4 oh4 oh4"
+         
+    }
+}
+@media screen and (max-width: 699px ) {
+    .data {
+        grid-template-columns: repeat(9, 1fr);
+        word-wrap: break-word;
+        grid-template-areas: 
+          "lg lg lg lg lg lg lg lg lg"
+          "hd hd hd hd   hd hd   hd   hd   hd"
+          "mn mn mn mn   mn mn   mn   mn   mn"
+          "nv nv nv inf   inf inf  inf inf inf "
+          "nv nv nv inf   inf  inf  inf inf inf"
+          "nv nv nv inf   inf  inf  inf inf inf"
+          "nv nv nv inf   inf  inf  inf inf inf"
+          "oh oh oh oh1 oh1 oh1 oh2 oh2 oh2 "
+          "ct ct ct  usf usf usf   oh3 oh3 oh3"
+          "oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 "
+    }
+}
+
+@media screen and (max-width: 400px ) and (min-width: 300px ) {
+    .data {
+        grid-template-columns: repeat(9, 1fr);
+        word-wrap: break-word;
+        grid-template-areas: 
+       "lg lg lg lg lg lg lg lg lg"
+          "hd hd hd hd   hd hd   hd   hd   hd"
+          "mn mn mn mn   mn mn   mn   mn   mn"
+          "nv nv nv nv nv nv nv nv nv "
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "oh oh oh oh oh oh oh oh oh "
+          "oh1 oh1 oh1 oh1 oh1 oh1 oh1 oh1 oh1"
+          "oh2 oh2 oh2 oh2 oh2 oh2 oh2 oh2 oh2"
+          "oh3 oh3 oh3 oh3 oh3 oh3 oh3 oh3 oh3 "
+          "oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 "
+          "ct ct ct ct usf usf usf usf usf"
+         
+    }
+}
+
+@media screen and (max-width: 299px ) {
+    .data {
+        grid-template-columns: repeat(9, 1fr);
+        word-wrap: break-word;
+        grid-template-areas: 
+       "lg lg lg lg lg lg lg lg lg"
+          "hd hd hd hd   hd hd   hd   hd   hd"
+          "mn mn mn mn   mn mn   mn   mn   mn"
+          "nv nv nv nv nv nv nv nv nv "
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "inf inf inf inf   inf  inf  inf inf inf"
+          "oh oh oh oh oh oh oh oh oh "
+          "oh1 oh1 oh1 oh1 oh1 oh1 oh1 oh1 oh1"
+          "oh2 oh2 oh2 oh2 oh2 oh2 oh2 oh2 oh2"
+          "oh3 oh3 oh3 oh3 oh3 oh3 oh3 oh3 oh3 "
+          "oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 oh4 "
+          "ct ct ct ct ct ct ct ct ct"
+          "usf usf usf usf usf usf usf usf usf"
+         
+    }
+}
