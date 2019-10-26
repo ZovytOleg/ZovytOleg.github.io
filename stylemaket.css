@@ -106,9 +106,9 @@
     .data {
         grid-template-columns: repeat(9, 1fr);
         word-wrap: break-word;
-        grid-template-areas: 
+        grid-template-areas:
+	  "hd hd hd hd   hd hd   hd   hd   hd"
           "lg lg lg lg lg lg lg lg lg"
-          "hd hd hd hd   hd hd   hd   hd   hd"
           "mn mn mn mn   mn mn   mn   mn   mn"
           "nv nv nv inf   inf inf  inf inf inf "
           "nv nv nv inf   inf  inf  inf inf inf"
@@ -125,8 +125,8 @@
         grid-template-columns: repeat(9, 1fr);
         word-wrap: break-word;
         grid-template-areas: 
-       "lg lg lg lg lg lg lg lg lg"
           "hd hd hd hd   hd hd   hd   hd   hd"
+	  "lg lg lg lg lg lg lg lg lg"
           "mn mn mn mn   mn mn   mn   mn   mn"
           "nv nv nv nv nv nv nv nv nv "
 	  "nv nv nv nv nv nv nv nv nv "
@@ -150,8 +150,8 @@
         grid-template-columns: repeat(9, 1fr);
         word-wrap: break-word;
         grid-template-areas: 
-       "lg lg lg lg lg lg lg lg lg"
           "hd hd hd hd   hd hd   hd   hd   hd"
+	  "lg lg lg lg lg lg lg lg lg"
           "mn mn mn mn   mn mn   mn   mn   mn"
           "nv nv nv nv nv nv nv nv nv "
 	  "nv nv nv nv nv nv nv nv nv "
