@@ -10,7 +10,7 @@
 	<script type="text/javascript">
 	function OnLoad()
 	{
-	httpRequest = new XMLHttpRequest();
+	var httpRequest = new XMLHttpRequest();
 	httpRequest.open("GET", "test.txt", true);
 	httpRequest.onreadystatechange = OnRequestStateChange;
 	httpRequest.send(null);
