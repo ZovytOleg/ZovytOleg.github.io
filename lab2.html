@@ -1,76 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
 <head>
-	<title>Лабораторна №2</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
+	<meta name="description" content="Сайт математика.укр, програмування, математика">
+	<meta name="keywords" content="Математика, математика.укр, програмування, WEB, programm, Веб, навчання">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/46245d3031.js" crossorigin="anonymous"></script>
+	<title>Рекламний лист</title>
+	<style>
+		/*RESET STYLES*/
+		html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, tr {
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+		  outline: 0;
+		  vertical-align: baseline;
+		}
+
+		::-webkit-scrollbar { width: 8px; height: 6px;}
+		::-webkit-scrollbar-track {  background-color: #999;}
+		::-webkit-scrollbar-track-piece { background-color: lightgray;}
+		::-webkit-scrollbar-thumb { height: 150px; background-color: #336699; border-radius: 8px;}
+		::-webkit-scrollbar-corner { background-color: #999;}}
+		::-webkit-resizer { background-color: #666;}
+		::-webkit-scrollbar-thumb:hover{border-width: 1px 1px 1px 2px;border-color: #555;background-color: #777;}
+
+
+		body, html {
+			width: 100%;
+		  	min-width: 300px;
+			height: 100%;
+			font-family: 'Exo 2', sans-serif;
+			background: url(images/fon.jpg);
+			background-attachment: fixed;	
+			background-repeat: repeat;
+			scroll-behavior: smooth;
+		}
+
+		h1 {
+			text-align: center;
+			color: red;
+			font-family: 'Exo 2', sans-serif;
+			text-shadow:  3px 5px 7px rgba(0,0,0,0.3)
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		a {
+			text-decoration: none;
+   			color: #ff9966;
+   			transition: .3s linear;
+		}
+
+		a:hover {
+			color: red;
+			transition: .3s linear;
+			padding: 0px 5px 0px 5px;
+			text-shadow:  3px 5px 7px rgba(0,0,0,0.3)
+		}
+
+		.krnu {
+			color: blue;
+		}
+
+		.krnu:hover {
+			padding: 0px;
+			color: red;
+		}
+
+		.info {
+			text-align: center;
+		} 
+
+		.contacte {
+			text-align: center;
+		}
+
+		.contacte h1 {
+			color: #ff3333;
+			font-size: 30px;
+			margin-bottom: -10px;
+		}
+
+		.mail {
+			color: blue;
+		}
+
+		.mail:hover {
+			padding: 0px;
+			color: red;
+		}
+		img {
+			transition: 2s;
+		}
+
+		img:hover {
+			transition: 2s;
+			transform: scale(1.03);
+		}
+
+
+	@media screen and (max-width: 700px) {
+
+	h1, .contacte h1{
+		font-size: 20px;
+	}
+
+	h2 {
+		font-size: 15px;
+	}
+	.info {
+		font-size: 12px;
+	}
+	.contacte {
+		font-size: 12px;
+		text-align: left;
+	}
+
+}
+	</style>
 </head>
 <body>
-	<h1><center>Лабораторна №2</center></h1>	
-	<div style="text-align: center">
-		<img src="/table.jpg" title="Таблиця" alt="Скріншот таблиці" id="img1">
-	</div>
-	<h2><center>Варіант 11</center></h2>	
-	<center>
-		<table width = "50%" border="1" cellpadding="10" cellspacing="0" >
+	<center><table width = "100%" cellpadding="10" cellspacing="0">
 		<tr>
-			<td id="ltr"><b>а</b></td>
-			<td id="ltr"><b>б</b></td>
-			<td id="ltr"><b>с</b></td>
-			<td id="ltr"><b>д</b></td>
-			<td></td>
+			<td colspan="2"><h1 style="text-shadow:  3px 5px 7px rgba(0,0,0,0.3)">Бажаєш відмінно знати математику та основи програмування ?</h1></td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td rowspan="4" id="td1"><b>тест</b></td>
+			<td colspan="2"><h2>Тоді <a href="http://xn--80aaasqmjc6cd.xn--j1amh/" target="_blank" title="Дистанційне навчання"><b>математика.укр</b></a> саме для тебе!</h2></td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td rowspan="2"></td>
+			<td colspan="2"><div class="info">Сайт онлайн-навчання для студентів <a class="krnu" title="Сайт КрНУ ім. М.Остроградського" target="_blank" href="http://krnu.org/">Кременчуцького національного університету імені Михайла Остроградського</a> та усіх бажаючих. <br>Сайт створено кафедрою інформатики і вищої математики. Ви отримаєте навчальні та методичні матеріали, пройдете онлайн-тестування, приймете участь в олімпіадах, отримаєте електронний сертифікат.</div></td>
 		</tr>
 		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td><center><img width="80%" title="МатематикаУкр" style="border-radius: 20px; box-shadow: 0 0 10px rgba(0,0,0,1);" src="images/математикаУкр.jpg"></td>
+			<td><center><img width="80%" title="Дистанційне навчання" src="images/математикаУкр1.png"></td>
 		</tr>
 		<tr>
-			<td colspan="4"></td>
+			<td><center><img width="80%" title="Логотип математика.укр" src="http://математика.укр/pluginfile.php/1/theme_academi/logo/1578247345/logo-2.png"></td>
+			<td class="contacte" valign="top"><h1>Контакти Адміністрації сайту</h1><br> <i class="fas fa-map-marker-alt"></i> Україна, Кременчук, Першотравнева, 20<br><i class="fas fa-phone-square-alt"></i> Тел: +38(05366)-3-00-50<br> <i class="fas fa-envelope"></i> E-mail: <a class="mail"  href="mailto:krnu@i.ua?subject=Питання до автора сайту." title="Після натискання відкриється програма ел.пошти за замовчуванням" style="text-decoration: none;">krnu@i.ua</a><br></td>
 		</tr>
-		</table><br>
-	<textarea id="textar" rows="15"><table width = "50%" border="1" cellpadding="10" cellspacing="0">
-<tr>
-	<td><b>а</b></td>
-	<td><b>б</b></td>
-	<td><b>с</b></td>
-	<td><b>д</b></td>
-	<td></td>
-</tr>
-<tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td></td>
-<td rowspan="4" id="td1"><b>тест</b></td>
-</tr>
-<tr>
-	<td></td>
-	<td></td>
-	<td></td>
-	<td rowspan="2"></td>
-</tr>
-<tr>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
-<tr>
-	<td colspan="4"></td>
-</tr>
-</table></textarea>
+	</table>
+	
+	
+	
+	
 </body>
 </html>
