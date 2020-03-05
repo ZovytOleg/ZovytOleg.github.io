@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Сторінка відписки</title>
+	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<style type="text/css">
+		/* RESET STYLES */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+body, html {
+			width: 100%;
+		  	min-width: 300px;
+			font-family: 'Exo 2', Arial, sans-serif;
+			background: url(https://raw.githubusercontent.com/ZovytOleg/ZovytOleg.github.io/master/images/fon.jpg);
+			background-attachment: fixed;	
+			background-repeat: repeat;}
+
+
+.block {
+	background-color: #DCDCDC;
+	padding:30px;
+	margin:50px 30% 20px 30%;
+	border-radius: 10px;
+}
+input {
+	margin: 10px 10px 0px 5px;
+	padding: 15px 40px;
+	border-radius: 25px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+h2 {
+	font-size: 35px;
+	margin:20px;
+	color: red;
+
+}
+
+p {
+	font-style: italic;
+}
+
+#agree {
+	background-color: lightgreen;
+	font-weight: 750;
+}
+
+#cancel, #close {
+	background-color:red;
+	font-weight: 750;
+}
+
+#Img {
+	border-radius: 20px 0px;
+	transition: 3s;
+}
+
+#Img:hover {
+	transform: scale(1.02);
+	transition: 3s;
+}
+
+	</style>
+</head>
+<body>
+	<center>
+	<div class="block">
+		<div id="mainBlock">
+			<p>Відмовитись від розсилки?</p>
+			<h2><b>Навчальні сайти</b></h2>
+			<input type="button" id = "agree" value="Підтвердити" onclick="agree()">
+			<input type="button" id = "cancel" value="Відмінити" onclick="closed()">
+		</div>
+		<div id="hideBlock" style="display: none">
+			<h2>Підписка на розсилку відмінена</h2>
+			<p>Данний користувач більше не буде відправляти Вам електронні повідомлення на тему (<b>Навчальні сайти</b>)</p>
+			<input type="button" id = "close" value="Вийти" onclick="window.close()"></div>
+	</div>
+		<img id="Img" width="30%" src="images/really.jpg" title="Потрібно задуматись">
+		<img id="hideImg" src="images/cry.png" style="display: none" title="Ми жалкуємо">
+</body>
+<script>
+	function agree() {
+		var r = confirm("Ви впевнені ?")
+		if (r == true) {
+			document.getElementById("hideBlock").style.display = "block"
+			document.getElementById("mainBlock").style.display = "none"
+			document.getElementById("hideImg").style.display = "block"
+			document.getElementById("Img").style.display = "none"
+		}
+	}	
+
+	function closed() {
+	alert("Добрий вибір! Радий, що Ви залишилися.")
+	window.close()
+	}
+</script>
+</html>
