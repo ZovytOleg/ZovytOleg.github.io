@@ -5,23 +5,88 @@
 	<title>Лабораторна №3</title>
 	<link rel = "stylesheet" href="stylemaket.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<div class="data">
-	  <div class="header">Шапка<br>(11 Варіант)</div>
-	  <div class="main">Головне меню</div>
-	  <div class="logo">Логотип</div>
-	  <div class="information">Інформація</div>
-	  <div class="navigation">Навігація</div>
-	  <div class="contacte">Контакти</div>
-	  <div class="other">js</div>
-	  <div class="other1">canvas</div>
-	  <div class="other2">Додаткові блоки</div>
-	  <div class="other3">Додаткові блоки</div>
-	  <div class="other4">Корисна інформація</div>
-	  <div class="useful">Корисні посилання</div>
-	</div>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+    	<link href="https://fonts.googleapis.com/css?family=Marmelad&display=swap" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+    	<style>
+    	html, body, span, h1, h3{
+		  margin: 0;
+		  padding: 0;
+		  border: 0;
+		  outline: 0;
+		  vertical-align: baseline;}
 
-	
-</body>
+		body, html {
+			width: 100%;
+		 	min-width: 700px;
+			height: 100%;
+			background-image: url("https://raw.githubusercontent.com/ZovytOleg/ZovytOleg.github.io/master/images/background.png");
+			background-attachment: fixed;
+			font-family: 'Exo 2', 'Arial';}
+
+		::-webkit-scrollbar { width: 8px; height: 6px;}
+		::-webkit-scrollbar-track {  background-color: #999;}
+		::-webkit-scrollbar-track-piece { background-color: lightgray;}
+		::-webkit-scrollbar-thumb { height: 150px; background-color: #336699; border-radius: 8px;}
+		::-webkit-scrollbar-corner { background-color: #999;}}
+		::-webkit-resizer { background-color: #666;}
+		::-webkit-scrollbar-thumb:hover{border-width: 1px 1px 1px 2px;border-color: #555;background-color: #777;}
+
+		#main, #formula, #formula2, #res {
+			font-size: 1.9vw;
+			margin: 10px 0px 40px 0px;}
+
+		h1, h3 {padding: 0px 25px;}
+		.back {
+			background-color: snow; 
+			margin: 0px 20%; 
+			height: 100%; 
+			border-left: 4px solid; 
+			border-right: 4px solid; 
+			border-radius: 35px}
+		
+		@media (max-width: 800px) {
+			.back {
+				margin: 0px 3%;}
+			
+			#main, #formula, #formula2, #res {
+				font-size: 20px;}
+			
+			h1 {font-size: 23px;}
+
+			h3 {font-size: 14px;}
+		}
+    </style>
+  </head>
+  <body>
+  	<div class="back">
+	    <center>
+	    <h1 style="padding-top: 20px">Знайти невизначений інтеграл:</h1>   
+	    <div id="main"></div>
+	    <h1>Розв'язок:</h1>
+	    <h3>Перетворюємо підінтегральний вираз. Для цього потрібно винести із знаменника <span id="sqrt">2</span> за знак інтеграла.</h3>
+	    <div id="formula"></div>
+	    <h3>далі, використовуючи таблицю інтегралів (Формула №11), отримуємо:</h3>
+	 	<div id="formula2"></div>
+	 	<h1>Відповідь:</h1>
+	 	<div id="res"></div>
+ 	</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+    <script>
+		window.addEventListener("load", function () {
+			var sqrt = document.getElementById('sqrt')
+			var main = document.getElementById('main');
+			var form1 = document.getElementById("formula");
+			var form2 = document.getElementById('formula2')
+			var res = document.getElementById('res')
+
+
+			katex.render("\\sqrt{2}", sqrt)
+			katex.render("{\\color{blue}{\\int\\frac{dx}{\\sqrt{3-2x^2}}}}", main)
+			katex.render("\\int\\frac{dx}{\\sqrt{3-2x^2}}=\\frac{1}{2}\\int\\frac{dx}{\\sqrt{\\frac{3}{2}-x^2}}", form1);
+			katex.render("\\int\\frac{dx}{\\sqrt{3-2x^2}}=\\frac{1}{2}\\int\\frac{dx}{\\sqrt{\\frac{3}{2}-x^2}}=\\frac{1}{\\sqrt{2}}\\int\\frac{dx}{\\sqrt{(\\frac{3}{2})^2-x^2}}=\\frac{1}{\\sqrt{2}}\\arcsin\\sqrt{\\frac{2}{3}}x+C",form2)
+			katex.render("\\int\\frac{dx}{\\sqrt{3-2x^2}}={\\color{red}{\\frac{1}{\\sqrt{2}}\\arcsin\\sqrt{\\frac{2}{3}}x + C}}",res)
+		});
+    </script>
+  </body>
 </html>
