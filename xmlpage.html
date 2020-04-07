@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Лабораторні 4-7</title>
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Marmelad&display=swap" rel="stylesheet">
+<script category="text/javascript">
+
+function loadXML(file) {
+ try { 
+ var req = new XMLHttpRequest();
+ req.open("GET", file, false);
+ req.send(null);
+ return req.responseXML;
+ }
+ catch (e) {
+
+ try {
+ var xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+ xmlDoc.async = false;
+ xmlDoc.load(file);
+ return xmlDoc;
+ }
+ catch (e) {
+ alert(e.message);
+ return null;
+ }
+ }
+} 
+
+</script>
+<style>
+	body, html {
+ 	min-width: 300px;
+ 	background: url(https://raw.githubusercontent.com/ZovytOleg/ZovytOleg.github.io/master/images/background.png);
+	background-attachment: fixed;		
+	background-repeat: repeat;
+	scroll-behavior: smooth;}
+
+	::-webkit-scrollbar { width: 8px; height: 6px;}
+	::-webkit-scrollbar-track {  background-color: #999;}
+	::-webkit-scrollbar-track-piece { background-color: lightgray;}
+	::-webkit-scrollbar-thumb { height: 150px; background-color: #336699; border-radius: 8px;}
+	::-webkit-scrollbar-corner { background-color: #999;}}
+	::-webkit-resizer { background-color: #666;}
+	::-webkit-scrollbar-thumb:hover{border-width: 1px 1px 1px 2px;border-color: #555;background-color: #777;}
+
+	.box {
+		display: flex;
+        align-items: center;
+        justify-content: center;
+		background-color: lightgray;
+		box-shadow: 0px 7px 12px gray;
+		padding: 10px;
+		border-radius: 20px 20px 0px 0px;}
+
+	.box a {
+		font-family: 'Alegreya Sans SC','Arial', sans-serif;
+		font-size: 20px;
+		font-weight: 700;
+		text-decoration: none;
+		margin-right: 15px;
+		transition : .4s linear;}
+
+	.box a:hover {
+		background-color: silver;
+		border-radius: 10px;
+		transition : .4s linear;}
+
+	@media (max-width: 635px) {
+		.box {
+			display: block;
+			text-align: center;}
+		}
+
+</style>
+</head>
+<body>
+<div class="box">
+	<a name="Графічні редактори" id="graphic" href="#" onmouseover="choose(this)" style="color: red">Графічні редактори</a> <br /> 
+	<a name="Редактори 3D-моделювання" id="model" href="#" onmouseover="choose(this)" style="color: blue;text-decoration: none;" >Редактори 3D-моделювання</a> <br /> 
+	<a name="Відеоредактори" id="video" href="#" onmouseover="choose(this)" style="color: green;">Відеоредактори</a> <br /> 
+</div>
+
+<div id="data">
+	<center>
+	<br /> 
+	<div id="boxData0">
+		<div name="title0" id="title0"></div>
+		<div name="version0" id="version0"></div>
+		<div name="category0" id="category0"></div>
+	</div>
+	<br /> <br />
+	<div id="boxData1">
+		<div name="title1" id="title1"></div>
+		<div name="version1" id="version1"></div>
+		<div name="category1" id="category1"></div>
+	</div>
+	<br /> <br />
+	<div id="boxData2">
+		<div name="title2" id="title2"></div>
+		<div name="version2" id="version2"></div>
+		<div name="category2" id="category2"></div>
+	</div>
+	<br /> 
+	</center>
+</div>
+
+
+<script category="text/javascript">
+
+var xmlDoc = loadXML("https://zovytoleg.github.io/programs.xml");
+
+function choose(coloredLink) {
+ var group = coloredLink.name;
+ var index = 0;
+ var divNum = 3; 
+
+
+
+ for (var i = 0; i < xmlDoc.getElementsByTagName("program").length; i++) {
+
+ var title = "title" + index;
+ var version = "version" + index;
+ var category = "category" + index;
+ var data = document.getElementById('data');
+
+ if (xmlDoc.getElementsByTagName("program")
+ [i].attributes.getNamedItem("group").nodeValue == group) { 
+
+
+ document.getElementById(title).innerHTML = xmlDoc.getElementsByTagName("title")[i].childNodes[0].nodeValue;
+ document.getElementById(version).innerHTML = xmlDoc.getElementsByTagName("version")[i].childNodes[0].nodeValue;
+ document.getElementById(category).innerHTML = xmlDoc.getElementsByTagName("category")[i].childNodes[0].nodeValue;
+
+ index++;
+
+/* STYLE */
+ data.style.fontFamily = "'Marmelad', 'Arial', sans-serif";
+ data.style.borderRadius = "0px 0px 20px 20px";
+ data.style.transition =  ".4s linear";
+
+   if (group == "Графічні редактори") {
+ 	data.style.backgroundColor = "salmon";
+ 	data.style.boxShadow = "0px 5px 15px darkred";}
+
+   if (group == "Редактори 3D-моделювання") {
+ 	data.style.backgroundColor = "lightskyblue";
+ 	data.style.boxShadow = "0px 5px 15px midnightblue";}
+
+ 	if (group == "Відеоредактори") {
+ 	data.style.backgroundColor = "lightgreen";
+ 	data.style.boxShadow = "0px 5px 15px darkgreen"}
+
+ }
+
+}
+
+ for (var temp = index; temp < divNum; temp++) {
+
+ title = "title" + temp;
+ version = "version" + temp;
+ category = "category" + temp;
+
+ document.getElementById(title).innerHTML = "";
+ document.getElementById(version).innerHTML = "";
+ document.getElementById(category).innerHTML = "";
+
+ }
+
+}
+</script>
+</body>
+</html>
