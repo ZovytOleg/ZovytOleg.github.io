@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programs>
+	<program group="Графічні редактори">
+		<title>Adobe Photoshop</title>
+		<version>CS6</version>
+		<category>Растровий редактор</category>
+	</program>
+	<program group="Графічні редактори">
+		<title>Inkscape Project</title>
+		<version>0.92.4</version>
+		<category>Векторний редактор</category>
+	</program>
+	<program group="Редактори 3D-моделювання">
+		<title>Cinema 4D</title>
+		<version>R21</version>
+		<category>Універсальний тривимірний редактор</category>
+	</program>
+	<program group="Редактори 3D-моделювання">
+		<title>Blender</title>
+		<version>2.82</version>
+		<category>Професійний редактор тривимірного моделювання</category>
+	</program>
+	<program group="Редактори 3D-моделювання">
+		<title>Autodesk 3ds Max</title>
+		<version>20202</version>
+		<category>Професійне програмне забезпечення для 3D-моделювання </category>
+	</program>
+	<program group="Відеоредактори">
+		<title>Sony Vegas Pro</title>
+		<version>13.0</version>
+		<category>Професійна програма для багатодорожної запису, редакції</category>
+	</program>
+	<program group="Відеоредактори">
+		<title>Adobe After Effects</title>
+		<version>CC 14</version>
+		<category>Програмне забезпечення для редагування відео та динамічних зображень</category>
+	</program>
+	<program group="Відеоредактори">
+		<title>Adobe Premier Pro</title>
+		<version>CS6</version>
+		<category>Професійна програма нелінійного відеомонтажу</category>
+	</program>
+</programs>
