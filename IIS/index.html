@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="text.json"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div id="wordtree_basic" style="width: 100%; height: 1500px;"></div>
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+</body>
+<script>
+		google.load("visualization", "1.1", { packages: ["wordtree"] });
+		google.setOnLoadCallback(drawChart);
+		function drawChart() {
+			var objectName = JSON.parse(object);
+			var actionName = JSON.parse(action);
+
+			var actions = [['Фразы']];
+			for (let i = 0; i < actionName.length; i++) {
+				var temp = objectName[0].obj + " " + actionName[i].act;
+				actions.push([temp]);
+			}
+
+			var data = google.visualization.arrayToDataTable(actions);
+			
+			var options = {
+				maxFontSize: 18,
+				wordtree: {
+					format: 'implicit',
+					word: objectName[0].obj
+				}
+			};
+
+			var chart = new google.visualization.WordTree
+				(document.getElementById('wordtree_basic'));
+			 chart.draw(data, options);
+		}
+</script>
+</html>
