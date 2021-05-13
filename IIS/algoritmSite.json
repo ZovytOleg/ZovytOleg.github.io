@@ -1,0 +1,5192 @@
+{
+  "_comment": "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "undefined"
+    ],
+    "baseIris": [
+      "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "http://www.w3.org/2000/01/rdf-schema",
+      "http://www.w3.org/2001/XMLSchema"
+    ],
+    "prefixList": {
+      "owl": "http://www.w3.org/2002/07/owl#",
+      "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "": "http://www.semanticweb.org/admin/ontologies/2021/3/untitled-ontology-3#",
+      "xml": "http://www.w3.org/XML/1998/namespace",
+      "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite"
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.29",
+      "translation": [
+        525.96,
+        252.65
+      ],
+      "paused": false
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "0",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "3",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "8",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "18",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "22",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "25",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "27",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "29",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "31",
+      "type": "owl:Class"
+    },
+    {
+      "id": "33",
+      "type": "owl:Class"
+    },
+    {
+      "id": "35",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "40",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "49",
+      "type": "owl:Class"
+    },
+    {
+      "id": "52",
+      "type": "owl:Class"
+    },
+    {
+      "id": "48",
+      "type": "owl:Class"
+    },
+    {
+      "id": "50",
+      "type": "owl:Class"
+    },
+    {
+      "id": "15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "80",
+      "type": "owl:Class"
+    },
+    {
+      "id": "83",
+      "type": "owl:Class"
+    },
+    {
+      "id": "86",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "88",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "65",
+      "type": "owl:Class"
+    },
+    {
+      "id": "89",
+      "type": "owl:Class"
+    },
+    {
+      "id": "90",
+      "type": "owl:Class"
+    },
+    {
+      "id": "93",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "95",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "97",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "98",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "100",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "102",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "104",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "32",
+      "type": "owl:Class"
+    },
+    {
+      "id": "107",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "111",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "113",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "115",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "75",
+      "type": "owl:Class"
+    },
+    {
+      "id": "38",
+      "type": "owl:Class"
+    },
+    {
+      "id": "37",
+      "type": "owl:Class"
+    },
+    {
+      "id": "121",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "126",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "128",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "58",
+      "type": "owl:Class"
+    },
+    {
+      "id": "135",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "69",
+      "type": "owl:Class"
+    },
+    {
+      "id": "139",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "143",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "147",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "151",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "51",
+      "type": "owl:Class"
+    },
+    {
+      "id": "62",
+      "type": "owl:Class"
+    },
+    {
+      "id": "17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "160",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "164",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "168",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "171",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "175",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "178",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "34",
+      "type": "owl:Class"
+    },
+    {
+      "id": "117",
+      "type": "owl:Class"
+    },
+    {
+      "id": "60",
+      "type": "owl:Class"
+    },
+    {
+      "id": "70",
+      "type": "owl:Class"
+    },
+    {
+      "id": "132",
+      "type": "owl:Class"
+    },
+    {
+      "id": "183",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "181",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "191",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "189",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "196",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "200",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "54",
+      "type": "owl:Class"
+    },
+    {
+      "id": "72",
+      "type": "owl:Class"
+    },
+    {
+      "id": "202",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "206",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "205",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "209",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "214",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "213",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "116",
+      "type": "owl:Class"
+    },
+    {
+      "id": "219",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "218",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "129",
+      "type": "owl:Class"
+    },
+    {
+      "id": "45",
+      "type": "owl:Class"
+    },
+    {
+      "id": "110",
+      "type": "owl:Class"
+    },
+    {
+      "id": "223",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "226",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "78",
+      "type": "owl:Class"
+    },
+    {
+      "id": "227",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "231",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "230",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "81",
+      "type": "owl:Class"
+    },
+    {
+      "id": "43",
+      "type": "owl:Class"
+    },
+    {
+      "id": "5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "233",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "24",
+      "type": "owl:Class"
+    },
+    {
+      "id": "91",
+      "type": "owl:Class"
+    },
+    {
+      "id": "236",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "238",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "241",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "245",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "249",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "105",
+      "type": "owl:Class"
+    },
+    {
+      "id": "251",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "253",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "257",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "259",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "261",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "263",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "46",
+      "type": "owl:Class"
+    },
+    {
+      "id": "56",
+      "type": "owl:Class"
+    },
+    {
+      "id": "265",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "64",
+      "type": "owl:Class"
+    },
+    {
+      "id": "63",
+      "type": "owl:Class"
+    },
+    {
+      "id": "267",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "221",
+      "type": "rdfs:Literal"
+    },
+    {
+      "id": "269",
+      "type": "rdfs:Literal"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "0",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -4.6,
+        391.83
+      ]
+    },
+    {
+      "id": "3",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2667.29,
+        271.6
+      ]
+    },
+    {
+      "id": "4",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ukazat'",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ukazat'",
+        "undefined": "Указать"
+      },
+      "pos": [
+        -664.22,
+        -392.9
+      ]
+    },
+    {
+      "id": "8",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2808.16,
+        331.02
+      ]
+    },
+    {
+      "id": "16",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#применение",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "применение"
+      },
+      "pos": [
+        -1382.57,
+        -316.2
+      ]
+    },
+    {
+      "id": "18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -35.37,
+        716.59
+      ]
+    },
+    {
+      "id": "22",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1317.55,
+        -4.91
+      ]
+    },
+    {
+      "id": "25",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        431.55,
+        2421.23
+      ]
+    },
+    {
+      "id": "27",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        567.65,
+        2471.13
+      ]
+    },
+    {
+      "id": "29",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -62.14,
+        570.33
+      ]
+    },
+    {
+      "id": "31",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#graphic",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "graphic",
+        "undefined": "графическим"
+      },
+      "pos": [
+        482.67,
+        189.18
+      ]
+    },
+    {
+      "id": "33",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#actions",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "actions",
+        "undefined": "действий"
+      },
+      "pos": [
+        1952.58,
+        -1370.21
+      ]
+    },
+    {
+      "id": "35",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        100.94,
+        2219.12
+      ]
+    },
+    {
+      "id": "20",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#defines",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "defines",
+        "undefined": "определяет"
+      },
+      "pos": [
+        219.96,
+        554.54
+      ]
+    },
+    {
+      "id": "40",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1300.51,
+        140.55
+      ]
+    },
+    {
+      "id": "49",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#conducts",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "conducts",
+        "undefined": "проводит"
+      },
+      "pos": [
+        650.05,
+        -438.19
+      ]
+    },
+    {
+      "id": "52",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#resource",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "resource",
+        "undefined": "ресурс"
+      },
+      "pos": [
+        -1225.26,
+        946.52
+      ]
+    },
+    {
+      "id": "48",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#cross-browser",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "cross-browser",
+        "undefined": "кроссбраузерный"
+      },
+      "pos": [
+        1989.57,
+        1412.68
+      ]
+    },
+    {
+      "id": "50",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#analysis",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "analysis",
+        "undefined": "анализ"
+      },
+      "pos": [
+        445.52,
+        -1038.95
+      ]
+    },
+    {
+      "id": "15",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#fourth_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "fourth_stage",
+        "undefined": "на четвертом этапе"
+      },
+      "pos": [
+        1442.2,
+        1467.9
+      ]
+    },
+    {
+      "id": "80",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#found_bags",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "found_bags",
+        "undefined": "баги"
+      },
+      "pos": [
+        1351.2,
+        2762.22
+      ]
+    },
+    {
+      "id": "83",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#found_errors",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "found_errors",
+        "undefined": "ошибки"
+      },
+      "pos": [
+        1156.26,
+        2782.86
+      ]
+    },
+    {
+      "id": "86",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1152.36,
+        674.01
+      ]
+    },
+    {
+      "id": "88",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1179.37,
+        530.82
+      ]
+    },
+    {
+      "id": "65",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#programming",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "programming",
+        "undefined": "программирует"
+      },
+      "pos": [
+        1950.8,
+        1870.94
+      ]
+    },
+    {
+      "id": "89",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#Сайт",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "Сайт"
+      },
+      "pos": [
+        157.73,
+        737.38
+      ]
+    },
+    {
+      "id": "90",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#use",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "use",
+        "undefined": "используя"
+      },
+      "pos": [
+        1375.74,
+        345.06
+      ]
+    },
+    {
+      "id": "93",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1438.38,
+        1120.68
+      ]
+    },
+    {
+      "id": "95",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1486.43,
+        934.16
+      ]
+    },
+    {
+      "id": "97",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1272.11,
+        1216.33
+      ]
+    },
+    {
+      "id": "98",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2187.57,
+        -1235.88
+      ]
+    },
+    {
+      "id": "10",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ispolnitel",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ispolnitel",
+        "undefined": "Исполнитель"
+      },
+      "pos": [
+        1016.06,
+        1140.39
+      ]
+    },
+    {
+      "id": "100",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1600.06,
+        -465.72
+      ]
+    },
+    {
+      "id": "102",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -1452.36,
+        -587.62
+      ]
+    },
+    {
+      "id": "104",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -558.98,
+        -1224.91
+      ]
+    },
+    {
+      "id": "32",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#fifth_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "fifth_stage",
+        "undefined": "на пятом этапе"
+      },
+      "pos": [
+        841.9,
+        542.79
+      ]
+    },
+    {
+      "id": "107",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2342.4,
+        -1160.54
+      ]
+    },
+    {
+      "id": "111",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3266.27,
+        688.31
+      ]
+    },
+    {
+      "id": "113",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3243.58,
+        408.77
+      ]
+    },
+    {
+      "id": "115",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -382.89,
+        -1165.95
+      ]
+    },
+    {
+      "id": "75",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#develop_design",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "develop_design",
+        "undefined": "дизайн"
+      },
+      "pos": [
+        1803.83,
+        109.75
+      ]
+    },
+    {
+      "id": "38",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#first_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "first_stage",
+        "undefined": "на первом этапе"
+      },
+      "pos": [
+        773.71,
+        481.76
+      ]
+    },
+    {
+      "id": "37",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#teaching",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "teaching",
+        "undefined": "обучает"
+      },
+      "pos": [
+        228.15,
+        1946.43
+      ]
+    },
+    {
+      "id": "121",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        3104.68,
+        829.09
+      ]
+    },
+    {
+      "id": "126",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1005.83,
+        -1164.49
+      ]
+    },
+    {
+      "id": "128",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        873.52,
+        -1225.27
+      ]
+    },
+    {
+      "id": "13",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#sixth_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "sixth_stage",
+        "undefined": "на шестом этапе"
+      },
+      "pos": [
+        1182.73,
+        1843.22
+      ]
+    },
+    {
+      "id": "58",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#обновляет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "обновляет",
+        "undefined": "обновляет"
+      },
+      "pos": [
+        -182.66,
+        1693.46
+      ]
+    },
+    {
+      "id": "135",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1465.49,
+        101.89
+      ]
+    },
+    {
+      "id": "69",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#field",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "field",
+        "undefined": "поля"
+      },
+      "pos": [
+        2561.62,
+        -732.42
+      ]
+    },
+    {
+      "id": "139",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2452.33,
+        1095.12
+      ]
+    },
+    {
+      "id": "143",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1585.02,
+        480.87
+      ]
+    },
+    {
+      "id": "2",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#system",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "system",
+        "undefined": "системою управления для"
+      },
+      "pos": [
+        2629.93,
+        552.36
+      ]
+    },
+    {
+      "id": "147",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2465.16,
+        825.26
+      ]
+    },
+    {
+      "id": "151",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2499.08,
+        963.03
+      ]
+    },
+    {
+      "id": "51",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#searching",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "searching",
+        "undefined": "поиск"
+      },
+      "pos": [
+        834.57,
+        -934.4
+      ]
+    },
+    {
+      "id": "62",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#on_seven_defines",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "on_seven_defines",
+        "undefined": "определяет"
+      },
+      "pos": [
+        857.97,
+        1835.62
+      ]
+    },
+    {
+      "id": "17",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#design",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "design",
+        "undefined": "Дизайн"
+      },
+      "pos": [
+        -1047.24,
+        36.55
+      ]
+    },
+    {
+      "id": "160",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        581.07,
+        -1282.41
+      ]
+    },
+    {
+      "id": "164",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        200.32,
+        -1097.19
+      ]
+    },
+    {
+      "id": "168",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -738.17,
+        2219.18
+      ]
+    },
+    {
+      "id": "171",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        437.93,
+        -1328.07
+      ]
+    },
+    {
+      "id": "175",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -411.64,
+        -399.49
+      ]
+    },
+    {
+      "id": "178",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1663.49,
+        2428.85
+      ]
+    },
+    {
+      "id": "34",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#messages",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "messages",
+        "undefined": "сообщения"
+      },
+      "pos": [
+        2151.87,
+        -966.48
+      ]
+    },
+    {
+      "id": "117",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#fulfills",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "fulfills",
+        "undefined": "выполняет"
+      },
+      "pos": [
+        1063.58,
+        -1.14
+      ]
+    },
+    {
+      "id": "60",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#produces",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "produces",
+        "undefined": "производит"
+      },
+      "pos": [
+        36.93,
+        1813.68
+      ]
+    },
+    {
+      "id": "70",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#pages",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "pages",
+        "undefined": "страницы"
+      },
+      "pos": [
+        2217.15,
+        -511.87
+      ]
+    },
+    {
+      "id": "132",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#updates_calculations",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "updates_calculations",
+        "undefined": "выкладки"
+      },
+      "pos": [
+        -509.78,
+        2081.18
+      ]
+    },
+    {
+      "id": "183",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -933.48,
+        -502.96
+      ]
+    },
+    {
+      "id": "181",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -453.59,
+        -585.77
+      ]
+    },
+    {
+      "id": "191",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -884.75,
+        -625.12
+      ]
+    },
+    {
+      "id": "189",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -788.72,
+        -693.69
+      ]
+    },
+    {
+      "id": "196",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1737.66,
+        -1513.7
+      ]
+    },
+    {
+      "id": "200",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -667.95,
+        -713.72
+      ]
+    },
+    {
+      "id": "11",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#second_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "second_stage",
+        "undefined": "на втором этапе"
+      },
+      "pos": [
+        1477.48,
+        664.48
+      ]
+    },
+    {
+      "id": "54",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#worked_with",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "worked_with",
+        "undefined": "рабочий с"
+      },
+      "pos": [
+        2216.15,
+        917.6
+      ]
+    },
+    {
+      "id": "72",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#кнопками",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "кнопками",
+        "undefined": "кнопки"
+      },
+      "pos": [
+        2574.14,
+        -401.64
+      ]
+    },
+    {
+      "id": "202",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -468.1,
+        1730.19
+      ]
+    },
+    {
+      "id": "206",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -915.76,
+        -335.63
+      ]
+    },
+    {
+      "id": "205",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -209.34,
+        1900.44
+      ]
+    },
+    {
+      "id": "209",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -137.98,
+        2056.79
+      ]
+    },
+    {
+      "id": "214",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -440.71,
+        1586.57
+      ]
+    },
+    {
+      "id": "213",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1910.33,
+        -1631.56
+      ]
+    },
+    {
+      "id": "116",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#finalizies",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "finalizies",
+        "undefined": "дорабатывает"
+      },
+      "pos": [
+        1824.9,
+        -351.78
+      ]
+    },
+    {
+      "id": "219",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1781.99,
+        -623.82
+      ]
+    },
+    {
+      "id": "218",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        657.91,
+        800.8
+      ]
+    },
+    {
+      "id": "129",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#debug",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "debug",
+        "undefined": "устраняет"
+      },
+      "pos": [
+        1479.9,
+        2211.33
+      ]
+    },
+    {
+      "id": "45",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#dynamic",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "dynamic",
+        "undefined": "динамичный"
+      },
+      "pos": [
+        2094.15,
+        1245.62
+      ]
+    },
+    {
+      "id": "110",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#created",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "created",
+        "undefined": "создания"
+      },
+      "pos": [
+        3045.15,
+        574.58
+      ]
+    },
+    {
+      "id": "223",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2729.05,
+        -940.87
+      ]
+    },
+    {
+      "id": "226",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -21.07,
+        -1609.75
+      ]
+    },
+    {
+      "id": "78",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#eigth_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "eigth_stage",
+        "undefined": "на восьмом этапе"
+      },
+      "pos": [
+        812.62,
+        1589.16
+      ]
+    },
+    {
+      "id": "227",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2820.21,
+        -742.02
+      ]
+    },
+    {
+      "id": "231",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1138.63,
+        -302.04
+      ]
+    },
+    {
+      "id": "230",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        119.74,
+        -1729.05
+      ]
+    },
+    {
+      "id": "6",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#functional",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "functional",
+        "undefined": "функционал"
+      },
+      "pos": [
+        -541.79,
+        -937.24
+      ]
+    },
+    {
+      "id": "81",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#tested_functional",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "tested_functional",
+        "undefined": "функционал"
+      },
+      "pos": [
+        1220.52,
+        2411.75
+      ]
+    },
+    {
+      "id": "43",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#poluchit'",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "poluchit'",
+        "undefined": "Получить"
+      },
+      "pos": [
+        -916.04,
+        559.89
+      ]
+    },
+    {
+      "id": "5",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#zakazchik",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "zakazchik",
+        "undefined": "Заказчик"
+      },
+      "pos": [
+        -614.35,
+        199.8
+      ]
+    },
+    {
+      "id": "233",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1256.78,
+        -223.08
+      ]
+    },
+    {
+      "id": "24",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#project",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "project",
+        "undefined": "проект"
+      },
+      "pos": [
+        602.6,
+        2166.42
+      ]
+    },
+    {
+      "id": "91",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#specified",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "specified",
+        "undefined": "указанный"
+      },
+      "pos": [
+        929.65,
+        622.18
+      ]
+    },
+    {
+      "id": "236",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        893.51,
+        -258.81
+      ]
+    },
+    {
+      "id": "238",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        761.25,
+        -245.32
+      ]
+    },
+    {
+      "id": "241",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        621.28,
+        1710.18
+      ]
+    },
+    {
+      "id": "245",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        830.77,
+        2093.29
+      ]
+    },
+    {
+      "id": "249",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2062.6,
+        65.9
+      ]
+    },
+    {
+      "id": "105",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#information",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "information",
+        "undefined": "информационным"
+      },
+      "pos": [
+        841.86,
+        55.61
+      ]
+    },
+    {
+      "id": "251",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        1768.8,
+        -166.76
+      ]
+    },
+    {
+      "id": "253",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        -562.06,
+        2354.72
+      ]
+    },
+    {
+      "id": "257",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        257.74,
+        -22.15
+      ]
+    },
+    {
+      "id": "259",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        369.26,
+        -96.52
+      ]
+    },
+    {
+      "id": "261",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2235.96,
+        1834.73
+      ]
+    },
+    {
+      "id": "263",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        213.4,
+        111.51
+      ]
+    },
+    {
+      "id": "46",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#third_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "third_stage",
+        "undefined": "на третьем этапе"
+      },
+      "pos": [
+        1717.76,
+        1129.03
+      ]
+    },
+    {
+      "id": "56",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ninth_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ninth_stage",
+        "undefined": "на девятом этапе"
+      },
+      "pos": [
+        426.11,
+        1491.84
+      ]
+    },
+    {
+      "id": "265",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2237.19,
+        1964.83
+      ]
+    },
+    {
+      "id": "64",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#seasonality",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "seasonality",
+        "undefined": "сезонности"
+      },
+      "pos": [
+        203.55,
+        -1468.76
+      ]
+    },
+    {
+      "id": "63",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#seventh_stage",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "seventh_stage",
+        "undefined": "на седьмом этапе"
+      },
+      "pos": [
+        1154.42,
+        1537.72
+      ]
+    },
+    {
+      "id": "267",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2180.03,
+        2080.98
+      ]
+    },
+    {
+      "id": "221",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        628.02,
+        699.9
+      ]
+    },
+    {
+      "id": "269",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri": "http://www.w3.org/2000/01/rdf-schema",
+      "label": "Literal",
+      "attributes": [
+        "datatype"
+      ],
+      "pos": [
+        2053.59,
+        2150.92
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "1",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "7",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "9",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "12",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "14",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "19",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "21",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "23",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "26",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "28",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "30",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "36",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "39",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "41",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "42",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "44",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "47",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "53",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "55",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "57",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "59",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "61",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "66",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "67",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "68",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "71",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "73",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "74",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "76",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "77",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "79",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "82",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "84",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "85",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "87",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "92",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "94",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "96",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "99",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "101",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "103",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "106",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "108",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "109",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "112",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "114",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "118",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "119",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "120",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "122",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "123",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "124",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "125",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "127",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "130",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "131",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "133",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "134",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "136",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "137",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "138",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "140",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "141",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "142",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "144",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "145",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "146",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "148",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "149",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "150",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "152",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "153",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "154",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "155",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "156",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "157",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "158",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "159",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "161",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "162",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "163",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "165",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "166",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "167",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "169",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "170",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "172",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "173",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "174",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "176",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "177",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "179",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "180",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "182",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "184",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "185",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "186",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "187",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "188",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "190",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "192",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "193",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "194",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "195",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "198",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "201",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "203",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "204",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "207",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "208",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "210",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "211",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "212",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "215",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "216",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "217",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "220",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "222",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "224",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "225",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "228",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "229",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "232",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "234",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "235",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "237",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "239",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "240",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "242",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "243",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "244",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "246",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "247",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "248",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "250",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "252",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "254",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "255",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "256",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "258",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "260",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "262",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "264",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "266",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "268",
+      "type": "owl:someValuesFrom"
+    },
+    {
+      "id": "270",
+      "type": "owl:someValuesFrom"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "1",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#определения_работы_вкладок_меню",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "определения_работы_вкладок_меню"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "2",
+      "range": "3",
+      "pos": [
+        2651.24,
+        392.2
+      ]
+    },
+    {
+      "id": "7",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#расставления_гиперссылок",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "расставления_гиперссылок"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "2",
+      "range": "8",
+      "pos": [
+        2730.7,
+        427.22
+      ]
+    },
+    {
+      "id": "9",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "11",
+      "pos": [
+        1254.23,
+        939.42
+      ]
+    },
+    {
+      "id": "12",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "13",
+      "pos": [
+        1110.79,
+        1474.49
+      ]
+    },
+    {
+      "id": "14",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "15",
+      "pos": [
+        1216,
+        1309.54
+      ]
+    },
+    {
+      "id": "19",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#целевую_аудиторию",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "целевую_аудиторию"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "20",
+      "range": "0",
+      "pos": [
+        94.34,
+        463.52
+      ]
+    },
+    {
+      "id": "21",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#соотношение_графических_элементов_к_текстовым",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "соотношение_графических_элементов_к_текстовым"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "17",
+      "range": "22",
+      "pos": [
+        -1193.85,
+        14.06
+      ]
+    },
+    {
+      "id": "23",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#завершает",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "завершает"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "24",
+      "range": "25",
+      "pos": [
+        506.5,
+        2309.58
+      ]
+    },
+    {
+      "id": "26",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#передаёт_со_всеми_логинами_и_паролями",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "передаёт_со_всеми_логинами_и_паролями"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "24",
+      "range": "27",
+      "pos": [
+        582.85,
+        2338.61
+      ]
+    },
+    {
+      "id": "28",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#задача_сайта",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "задача_сайта"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "20",
+      "range": "29",
+      "pos": [
+        67.2,
+        563.09
+      ]
+    },
+    {
+      "id": "30",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#цель_сайта",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "цель_сайта"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "20",
+      "range": "18",
+      "pos": [
+        79.07,
+        643.96
+      ]
+    },
+    {
+      "id": "36",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#заказчика_работы_с_сайтом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "заказчика_работы_с_сайтом"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "37",
+      "range": "35",
+      "pos": [
+        156.31,
+        2100.43
+      ]
+    },
+    {
+      "id": "39",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#цветовое_оформление",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "цветовое_оформление"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "17",
+      "range": "40",
+      "pos": [
+        -1184.82,
+        93.04
+      ]
+    },
+    {
+      "id": "41",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "17",
+      "range": "5",
+      "pos": [
+        -827.02,
+        104.51
+      ]
+    },
+    {
+      "id": "42",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "43",
+      "range": "5",
+      "pos": [
+        -744.43,
+        402.68
+      ]
+    },
+    {
+      "id": "44",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "45",
+      "range": "46",
+      "pos": [
+        1921.81,
+        1146.84
+      ]
+    },
+    {
+      "id": "47",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "48",
+      "range": "46",
+      "pos": [
+        1822.02,
+        1309.31
+      ]
+    },
+    {
+      "id": "53",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "54",
+      "range": "46",
+      "pos": [
+        1964.1,
+        996.12
+      ]
+    },
+    {
+      "id": "55",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "37",
+      "range": "56",
+      "pos": [
+        327.13,
+        1719.13
+      ]
+    },
+    {
+      "id": "57",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "58",
+      "range": "56",
+      "pos": [
+        121.73,
+        1592.65
+      ]
+    },
+    {
+      "id": "59",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "60",
+      "range": "56",
+      "pos": [
+        231.52,
+        1652.76
+      ]
+    },
+    {
+      "id": "61",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "62",
+      "range": "63",
+      "pos": [
+        1006.2,
+        1686.67
+      ]
+    },
+    {
+      "id": "66",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "4",
+      "range": "5",
+      "pos": [
+        -619.34,
+        -101.54
+      ]
+    },
+    {
+      "id": "67",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "33",
+      "range": "34",
+      "pos": [
+        2052.22,
+        -1168.35
+      ]
+    },
+    {
+      "id": "68",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "69",
+      "range": "70",
+      "pos": [
+        2409.59,
+        -601.71
+      ]
+    },
+    {
+      "id": "71",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "72",
+      "range": "70",
+      "pos": [
+        2408.86,
+        -480.33
+      ]
+    },
+    {
+      "id": "73",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "34",
+      "range": "70",
+      "pos": [
+        2209.61,
+        -746.93
+      ]
+    },
+    {
+      "id": "74",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "75",
+      "range": "11",
+      "pos": [
+        1658.41,
+        370.35
+      ]
+    },
+    {
+      "id": "76",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "2",
+      "range": "54",
+      "pos": [
+        2423.04,
+        734.98
+      ]
+    },
+    {
+      "id": "77",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "24",
+      "range": "78",
+      "pos": [
+        707.61,
+        1877.79
+      ]
+    },
+    {
+      "id": "79",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "80",
+      "range": "81",
+      "pos": [
+        1342,
+        2576.22
+      ]
+    },
+    {
+      "id": "82",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "83",
+      "range": "81",
+      "pos": [
+        1258.68,
+        2615.86
+      ]
+    },
+    {
+      "id": "84",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "52",
+      "range": "43",
+      "pos": [
+        -1070.65,
+        753.21
+      ]
+    },
+    {
+      "id": "85",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#продукт_в_указаные_сроки",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "продукт_в_указаные_сроки"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "43",
+      "range": "86",
+      "pos": [
+        -1046.36,
+        622.82
+      ]
+    },
+    {
+      "id": "87",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#регулярные_отчёты_об_проделанной_работе",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "регулярные_отчёты_об_проделанной_работе"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "43",
+      "range": "88",
+      "pos": [
+        -1059.31,
+        544.07
+      ]
+    },
+    {
+      "id": "92",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#на_который_будет_заходить_большое_количество_посетителей",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "на_который_будет_заходить_большое_количество_посетителей"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "52",
+      "range": "93",
+      "pos": [
+        -1345.06,
+        1044.42
+      ]
+    },
+    {
+      "id": "94",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#с_красивым_дизайном;",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "с_красивым_дизайном;"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "52",
+      "range": "95",
+      "pos": [
+        -1367.57,
+        939.78
+      ]
+    },
+    {
+      "id": "96",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#полнофункциональный",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "полнофункциональный"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "52",
+      "range": "97",
+      "pos": [
+        -1252.09,
+        1101.06
+      ]
+    },
+    {
+      "id": "99",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#своей_личной_разработки",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "своей_личной_разработки"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "16",
+      "range": "100",
+      "pos": [
+        -1504.65,
+        -400.12
+      ]
+    },
+    {
+      "id": "101",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#фирменного_стиля",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "фирменного_стиля"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "16",
+      "range": "102",
+      "pos": [
+        -1422.41,
+        -471.12
+      ]
+    },
+    {
+      "id": "103",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#стандартный",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "стандартный"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "104",
+      "pos": [
+        -551.58,
+        -1101.03
+      ]
+    },
+    {
+      "id": "106",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#успешные",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "успешные"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "34",
+      "range": "107",
+      "pos": [
+        2259.74,
+        -1076.35
+      ]
+    },
+    {
+      "id": "108",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#неуспешные",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "неуспешные"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "34",
+      "range": "98",
+      "pos": [
+        2172.34,
+        -1120.96
+      ]
+    },
+    {
+      "id": "109",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#страниц",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "страниц"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "110",
+      "range": "111",
+      "pos": [
+        3168.22,
+        637.88
+      ]
+    },
+    {
+      "id": "112",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#категорий",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "категорий"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "110",
+      "range": "113",
+      "pos": [
+        3157.56,
+        480.64
+      ]
+    },
+    {
+      "id": "114",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#разработка_дополнительных_модулей",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "разработка_дополнительных_модулей"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "6",
+      "range": "115",
+      "pos": [
+        -451.55,
+        -1067.13
+      ]
+    },
+    {
+      "id": "118",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#наполняет_страницы_контентом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "наполняет_страницы_контентом"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "32",
+      "range": "31",
+      "pos": [
+        669.26,
+        346.34
+      ]
+    },
+    {
+      "id": "119",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#наполняет_страницы_контентом",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "наполняет_страницы_контентом"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "32",
+      "range": "105",
+      "pos": [
+        817.13,
+        293.97
+      ]
+    },
+    {
+      "id": "120",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#подкатегорий",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "подкатегорий"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "110",
+      "range": "121",
+      "pos": [
+        3079.44,
+        721.18
+      ]
+    },
+    {
+      "id": "122",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "63",
+      "pos": [
+        1061.47,
+        1341.25
+      ]
+    },
+    {
+      "id": "123",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "78",
+      "pos": [
+        887.31,
+        1343.08
+      ]
+    },
+    {
+      "id": "124",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "38",
+      "pos": [
+        904.01,
+        828.7
+      ]
+    },
+    {
+      "id": "125",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#фишок__для_привлечения_внимания_посетителей",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "фишок__для_привлечения_внимания_посетителей"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "51",
+      "range": "126",
+      "pos": [
+        931.41,
+        -1064.5
+      ]
+    },
+    {
+      "id": "127",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#зацепок_для_привлечения_внимания_посетителей",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "зацепок_для_привлечения_внимания_посетителей"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "51",
+      "range": "128",
+      "pos": [
+        856.7,
+        -1099.61
+      ]
+    },
+    {
+      "id": "130",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "32",
+      "pos": [
+        970.92,
+        851.04
+      ]
+    },
+    {
+      "id": "131",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "46",
+      "pos": [
+        1365.84,
+        1156.9
+      ]
+    },
+    {
+      "id": "133",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#выполняет",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "выполняет"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "10",
+      "range": "56",
+      "pos": [
+        733.57,
+        1323.51
+      ]
+    },
+    {
+      "id": "134",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#переводит_дизайн_в_проект",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "переводит_дизайн_в_проект"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "46",
+      "range": "54",
+      "pos": [
+        1981.93,
+        1037.19
+      ]
+    },
+    {
+      "id": "136",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#тенденции_веб-дизайна",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "тенденции_веб-дизайна"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "90",
+      "range": "135",
+      "pos": [
+        1427.43,
+        205.02
+      ]
+    },
+    {
+      "id": "137",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "90",
+      "range": "75",
+      "pos": [
+        1589.79,
+        227.4
+      ]
+    },
+    {
+      "id": "138",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "116",
+      "range": "75",
+      "pos": [
+        1814.37,
+        -121.02
+      ]
+    },
+    {
+      "id": "140",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "49",
+      "range": "38",
+      "pos": [
+        711.88,
+        21.79
+      ]
+    },
+    {
+      "id": "141",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#CSS_стилями",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "CSS_стилями"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "139",
+      "pos": [
+        2347.57,
+        1016.38
+      ]
+    },
+    {
+      "id": "142",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "117",
+      "range": "38",
+      "pos": [
+        918.65,
+        240.31
+      ]
+    },
+    {
+      "id": "144",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "20",
+      "range": "38",
+      "pos": [
+        496.84,
+        518.15
+      ]
+    },
+    {
+      "id": "145",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#созданный_прототип",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "созданный_прототип"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "90",
+      "range": "143",
+      "pos": [
+        1493.64,
+        421.57
+      ]
+    },
+    {
+      "id": "146",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "129",
+      "range": "13",
+      "pos": [
+        1331.32,
+        2027.27
+      ]
+    },
+    {
+      "id": "148",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "81",
+      "range": "13",
+      "pos": [
+        1226.33,
+        2143.73
+      ]
+    },
+    {
+      "id": "149",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#адаптивной_версией",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "адаптивной_версией"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "147",
+      "pos": [
+        2350.85,
+        867.65
+      ]
+    },
+    {
+      "id": "150",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "132",
+      "range": "58",
+      "pos": [
+        -346.22,
+        1887.32
+      ]
+    },
+    {
+      "id": "152",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "110",
+      "range": "2",
+      "pos": [
+        2837.54,
+        563.47
+      ]
+    },
+    {
+      "id": "153",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#JS_скриптами",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "JS_скриптами"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "54",
+      "range": "151",
+      "pos": [
+        2369.05,
+        942.15
+      ]
+    },
+    {
+      "id": "154",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "16",
+      "range": "17",
+      "pos": [
+        -1214.9,
+        -139.82
+      ]
+    },
+    {
+      "id": "155",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "70",
+      "range": "75",
+      "pos": [
+        2010.49,
+        -201.06
+      ]
+    },
+    {
+      "id": "156",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#находит",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "находит"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "81",
+      "range": "83",
+      "pos": [
+        1128.25,
+        2596.33
+      ]
+    },
+    {
+      "id": "157",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#разрабатывает",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "разрабатывает"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "11",
+      "range": "75",
+      "pos": [
+        1693.25,
+        393.4
+      ]
+    },
+    {
+      "id": "158",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#находит",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "находит"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "81",
+      "range": "80",
+      "pos": [
+        1216.08,
+        2618.68
+      ]
+    },
+    {
+      "id": "159",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "63",
+      "range": "10",
+      "pos": [
+        1115.15,
+        1322.79
+      ]
+    },
+    {
+      "id": "161",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "56",
+      "range": "10",
+      "pos": [
+        713.61,
+        1292.73
+      ]
+    },
+    {
+      "id": "162",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#деятельности",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "деятельности"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "50",
+      "range": "160",
+      "pos": [
+        522.67,
+        -1177.53
+      ]
+    },
+    {
+      "id": "163",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "11",
+      "range": "10",
+      "pos": [
+        1229.24,
+        910.31
+      ]
+    },
+    {
+      "id": "165",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "15",
+      "range": "10",
+      "pos": [
+        1240.34,
+        1274.34
+      ]
+    },
+    {
+      "id": "166",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#конкурентоспособности_предложения",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "конкурентоспособности_предложения"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "50",
+      "range": "164",
+      "pos": [
+        311.85,
+        -1070.7
+      ]
+    },
+    {
+      "id": "167",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "38",
+      "range": "10",
+      "pos": [
+        869.94,
+        849.98
+      ]
+    },
+    {
+      "id": "169",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "32",
+      "range": "10",
+      "pos": [
+        935.99,
+        870.02
+      ]
+    },
+    {
+      "id": "170",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "78",
+      "range": "10",
+      "pos": [
+        929.26,
+        1364.32
+      ]
+    },
+    {
+      "id": "172",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "105",
+      "range": "32",
+      "pos": [
+        867.95,
+        298.06
+      ]
+    },
+    {
+      "id": "173",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#конкурентов",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "конкурентов"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "50",
+      "range": "171",
+      "pos": [
+        441.2,
+        -1203.5
+      ]
+    },
+    {
+      "id": "174",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "31",
+      "range": "32",
+      "pos": [
+        635.16,
+        380.91
+      ]
+    },
+    {
+      "id": "176",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "13",
+      "range": "10",
+      "pos": [
+        1074.93,
+        1488.81
+      ]
+    },
+    {
+      "id": "177",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "46",
+      "range": "10",
+      "pos": [
+        1368.11,
+        1120.71
+      ]
+    },
+    {
+      "id": "179",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ошибки_функционала",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ошибки_функционала"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "129",
+      "range": "178",
+      "pos": [
+        1583.6,
+        2334.2
+      ]
+    },
+    {
+      "id": "180",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#семантическое_ядро",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "семантическое_ядро"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "181",
+      "pos": [
+        -545.93,
+        -501.22
+      ]
+    },
+    {
+      "id": "182",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "6",
+      "range": "4",
+      "pos": [
+        -603,
+        -665.07
+      ]
+    },
+    {
+      "id": "184",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "50",
+      "range": "49",
+      "pos": [
+        547.79,
+        -738.57
+      ]
+    },
+    {
+      "id": "185",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#применяемые_технологии",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "применяемые_технологии"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "175",
+      "pos": [
+        -526.19,
+        -396.5
+      ]
+    },
+    {
+      "id": "186",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "51",
+      "range": "49",
+      "pos": [
+        742.31,
+        -686.29
+      ]
+    },
+    {
+      "id": "187",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "64",
+      "range": "50",
+      "pos": [
+        324.54,
+        -1253.86
+      ]
+    },
+    {
+      "id": "188",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#технические_требования_к_ресурсу",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "технические_требования_к_ресурсу"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "189",
+      "pos": [
+        -733.96,
+        -561.39
+      ]
+    },
+    {
+      "id": "190",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "65",
+      "range": "15",
+      "pos": [
+        1696.5,
+        1669.42
+      ]
+    },
+    {
+      "id": "192",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "5",
+      "range": "89",
+      "pos": [
+        -228.31,
+        468.59
+      ]
+    },
+    {
+      "id": "193",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#количество_страниц",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "количество_страниц"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "183",
+      "pos": [
+        -809.76,
+        -452.39
+      ]
+    },
+    {
+      "id": "194",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "10",
+      "range": "89",
+      "pos": [
+        586.89,
+        938.89
+      ]
+    },
+    {
+      "id": "195",
+      "label": "Subclass of",
+      "attributes": [
+        "object",
+        "anonymous"
+      ],
+      "domain": "91",
+      "range": "90",
+      "pos": [
+        1152.69,
+        483.62
+      ]
+    },
+    {
+      "id": "198",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#категории",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "категории"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "191",
+      "pos": [
+        -786.95,
+        -522.13
+      ]
+    },
+    {
+      "id": "201",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#блоки",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "блоки"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "200",
+      "pos": [
+        -666.32,
+        -573.31
+      ]
+    },
+    {
+      "id": "203",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#каталоги",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "каталоги"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "58",
+      "range": "202",
+      "pos": [
+        -336.92,
+        1713.31
+      ]
+    },
+    {
+      "id": "204",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#продвижение_ресурса",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "продвижение_ресурса"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "60",
+      "range": "205",
+      "pos": [
+        -96.53,
+        1860.7
+      ]
+    },
+    {
+      "id": "207",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#структуру_сайта",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "структуру_сайта"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "4",
+      "range": "206",
+      "pos": [
+        -801.11,
+        -361.73
+      ]
+    },
+    {
+      "id": "208",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#поддержку_сайта",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "поддержку_сайта"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "60",
+      "range": "209",
+      "pos": [
+        -61.53,
+        1950.52
+      ]
+    },
+    {
+      "id": "210",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#переводит_дизайн_в_проект",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "переводит_дизайн_в_проект"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "46",
+      "range": "45",
+      "pos": [
+        1907.52,
+        1205.67
+      ]
+    },
+    {
+      "id": "211",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#переводит_дизайн_в_проект",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "переводит_дизайн_в_проект"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "46",
+      "range": "48",
+      "pos": [
+        1866.44,
+        1268.31
+      ]
+    },
+    {
+      "id": "212",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ошибок",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ошибок"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "213",
+      "pos": [
+        1928.28,
+        -1520.57
+      ]
+    },
+    {
+      "id": "215",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#материаллы",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "материаллы"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "58",
+      "range": "214",
+      "pos": [
+        -322.71,
+        1635.45
+      ]
+    },
+    {
+      "id": "216",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#предупреждений",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "предупреждений"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "33",
+      "range": "196",
+      "pos": [
+        1831.82,
+        -1450.84
+      ]
+    },
+    {
+      "id": "217",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#цветовой_спектр",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "цветовой_спектр"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "91",
+      "range": "218",
+      "pos": [
+        780.5,
+        720.22
+      ]
+    },
+    {
+      "id": "220",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#корпоративный_стиль",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "корпоративный_стиль"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "91",
+      "range": "221",
+      "pos": [
+        767.88,
+        663.86
+      ]
+    },
+    {
+      "id": "222",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#пока_не_будет_утвержден",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "пока_не_будет_утвержден"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "116",
+      "range": "219",
+      "pos": [
+        1800.34,
+        -507.5
+      ]
+    },
+    {
+      "id": "224",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#ввода",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "ввода"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "69",
+      "range": "223",
+      "pos": [
+        2656.97,
+        -851.14
+      ]
+    },
+    {
+      "id": "225",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#тестирует",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "тестирует"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "13",
+      "range": "81",
+      "pos": [
+        1182.15,
+        2144.83
+      ]
+    },
+    {
+      "id": "228",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#вывода",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "вывода"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "69",
+      "range": "227",
+      "pos": [
+        2702.65,
+        -737.66
+      ]
+    },
+    {
+      "id": "229",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#услуги",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "услуги"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "64",
+      "range": "230",
+      "pos": [
+        155.59,
+        -1617.7
+      ]
+    },
+    {
+      "id": "232",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#товара",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "товара"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "64",
+      "range": "226",
+      "pos": [
+        78.03,
+        -1547.55
+      ]
+    },
+    {
+      "id": "234",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#разработку_прототипу",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "разработку_прототипу"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "117",
+      "range": "233",
+      "pos": [
+        1172.24,
+        -125.97
+      ]
+    },
+    {
+      "id": "235",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#демонстрацию_прототипа_клиенту",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "демонстрацию_прототипа_клиенту"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "117",
+      "range": "231",
+      "pos": [
+        1105.91,
+        -170.85
+      ]
+    },
+    {
+      "id": "237",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#тексты",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "тексты"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "105",
+      "range": "236",
+      "pos": [
+        870.91,
+        -121.27
+      ]
+    },
+    {
+      "id": "239",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#СЕО-статьи",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "СЕО-статьи"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "105",
+      "range": "238",
+      "pos": [
+        796.43,
+        -114
+      ]
+    },
+    {
+      "id": "240",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#желает",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "желает"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "5",
+      "range": "17",
+      "pos": [
+        -844.78,
+        152.7
+      ]
+    },
+    {
+      "id": "242",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#желает",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "желает"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "5",
+      "range": "43",
+      "pos": [
+        -783.76,
+        368.95
+      ]
+    },
+    {
+      "id": "243",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#желает",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "желает"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "5",
+      "range": "4",
+      "pos": [
+        -660.26,
+        -96.47
+      ]
+    },
+    {
+      "id": "244",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#доменное_имя",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "доменное_имя"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "245",
+      "pos": [
+        842.27,
+        1984.32
+      ]
+    },
+    {
+      "id": "246",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#хостинг",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "хостинг"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "62",
+      "range": "241",
+      "pos": [
+        726.97,
+        1766.19
+      ]
+    },
+    {
+      "id": "247",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#включают",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "включают"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "70",
+      "range": "72",
+      "pos": [
+        2385.3,
+        -409.5
+      ]
+    },
+    {
+      "id": "248",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#баннеры",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "баннеры"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "75",
+      "range": "249",
+      "pos": [
+        1944.62,
+        85.89
+      ]
+    },
+    {
+      "id": "250",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#графических_элементов",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "графических_элементов"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "75",
+      "range": "251",
+      "pos": [
+        1783.81,
+        -48.31
+      ]
+    },
+    {
+      "id": "252",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#товаров",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "товаров"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "132",
+      "range": "253",
+      "pos": [
+        -539.66,
+        2237.51
+      ]
+    },
+    {
+      "id": "254",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#описания",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "описания"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "132",
+      "range": "168",
+      "pos": [
+        -637.1,
+        2158.11
+      ]
+    },
+    {
+      "id": "255",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#включают",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "включают"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "70",
+      "range": "34",
+      "pos": [
+        2157.16,
+        -738.38
+      ]
+    },
+    {
+      "id": "256",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#включают",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "включают"
+      },
+      "attributes": [
+        "object",
+        "someValues"
+      ],
+      "domain": "70",
+      "range": "69",
+      "pos": [
+        2374.89,
+        -652.62
+      ]
+    },
+    {
+      "id": "258",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#фото",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "фото"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "257",
+      "pos": [
+        357.31,
+        71.4
+      ]
+    },
+    {
+      "id": "260",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#видео",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "видео"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "259",
+      "pos": [
+        418.73,
+        28.1
+      ]
+    },
+    {
+      "id": "262",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#калькуляторы",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "калькуляторы"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "65",
+      "range": "261",
+      "pos": [
+        2104.93,
+        1851.37
+      ]
+    },
+    {
+      "id": "264",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#анимации",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "анимации"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "31",
+      "range": "263",
+      "pos": [
+        337.26,
+        147.24
+      ]
+    },
+    {
+      "id": "266",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#системы_оплаты_с_помощью_банковских_карт",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "системы_оплаты_с_помощью_банковских_карт"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "65",
+      "range": "265",
+      "pos": [
+        2104.5,
+        1921.33
+      ]
+    },
+    {
+      "id": "268",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#конвертер_валюты",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "конвертер_валюты"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "65",
+      "range": "269",
+      "pos": [
+        2008.97,
+        2029.4
+      ]
+    },
+    {
+      "id": "270",
+      "iri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite#другой_функционал",
+      "baseIri": "http://www.semanticweb.org/admin/ontologies/2021/3/algoritmSite",
+      "label": {
+        "IRI-based": "другой_функционал"
+      },
+      "attributes": [
+        "datatype",
+        "someValues"
+      ],
+      "domain": "65",
+      "range": "267",
+      "pos": [
+        2078.39,
+        1987.85
+      ]
+    }
+  ]
+}
