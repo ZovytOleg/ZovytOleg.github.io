@@ -15,6 +15,7 @@ define('TOKEN','2038004525:AAHn5yAHEr1HVE0PF1Rg_GPmaJGRSkW8f6M');
 
 # Записываем сообщение пользователя
 $message = mb_strtolower(($data['text'] ? $data['text'] : $data['data']),'utf-8');
+echo $message;
 
 
 # Обрабатываем сообщение
