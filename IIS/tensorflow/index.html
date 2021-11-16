@@ -15,10 +15,14 @@
 
 	<!-- MobileNet -->
 	<img id="img" src="./images/1.jpg" width="900" title="Первая картинка"></img>
+	<br>
+	<input type="button" onclick="f()" value="Определить">
 
 </body>
 <script>
 	/* MobileNet */
+	function f() {
+		console.clear();
 		const img = document.getElementById('img');
 
 		// Load the model.
@@ -38,8 +42,7 @@
 				console.log('Predictions: ', predictions);
 			});
 		});
-
-
-	
+	}
+		
 </script>
 </html>
