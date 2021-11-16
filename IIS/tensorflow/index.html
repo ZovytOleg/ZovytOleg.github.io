@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
+</head>
+<body>
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0"> </script>
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"> </script>
+
+	<!-- MobileNet -->
+	<img id="img" src="./images/1.jpg" width="900" title="Первая картинка"></img>
+
+</body>
+<script>
+	/* MobileNet */
+		const img = document.getElementById('img');
+
+		// Load the model.
+		mobilenet.load().then(model => {
+			// Classify the image.
+			model.classify(img).then(predictions => {
+				console.log('Predictions: ');
+				console.log(predictions);
+			});
+		});
+
+		/* Object Detection */
+		// Load the model.
+		cocoSsd.load().then(model => {
+			// detect objects in the image.
+			model.detect(img).then(predictions => {
+				console.log('Predictions: ', predictions);
+			});
+		});
+
+
+	
+</script>
+</html>
